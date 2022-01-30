@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-extract-with-storybook",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.6.8",
+    "@vanilla-extract/vite-plugin": "^3.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@storybook/addon-actions": "^6.5.0-alpha.28",
+    "@storybook/addon-essentials": "^6.5.0-alpha.28",
+    "@storybook/addon-links": "^6.5.0-alpha.28",
+    "@storybook/react": "^6.5.0-alpha.28",
+    "@vitejs/plugin-react": "^1.0.7",
+    "babel-loader": "^8.2.3",
+    "storybook-builder-vite": "^0.1.14",
+    "vite": "^2.7.2"
+  }
+}
